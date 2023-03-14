@@ -1,0 +1,27 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "a little emeil news letter app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start_dev": "npx nodemon node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monybaruch/Mail-Chimp-App.git"
+  },
+  "author": "Mony Baruch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monybaruch/Mail-Chimp-App/issues"
+  },
+  "homepage": "https://github.com/monybaruch/Mail-Chimp-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.21"
+  }
+}
